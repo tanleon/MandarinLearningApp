@@ -1,0 +1,5 @@
+[
+  { "id": 1, "word": "你好", "pinyin": "nǐ hǎo", "meaning": "Hello" },
+  { "id": 2, "word": "谢谢", "pinyin": "xiè xie", "meaning": "Thank you" },
+  { "id": 3, "word": "再见", "pinyin": "zài jiàn", "meaning": "Goodbye" }
+]
