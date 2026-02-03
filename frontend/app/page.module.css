@@ -1,0 +1,70 @@
+/* page.module.css */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.word {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+
+.pinyin {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.feedback {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.progress {
+  margin-top: 1rem;
+  color: #333;
+  font-weight: 500;
+}
